@@ -1,7 +1,7 @@
-public class ParametrosInvalidosException {
+public class ParametrosInvalidosException extends Exception {
 
-    public ParametrosInvalidosException(String mensagemString){
-        super(mensagem);
+    public ParametrosInvalidosException(String message){
+        super(message);
     }
     
 }
